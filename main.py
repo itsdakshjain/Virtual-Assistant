@@ -7,7 +7,6 @@ from datetime import datetime
 
 import os
 from dotenv import load_dotenv
-import requests
 
 # Load environment variables from .env file
 load_dotenv()
