@@ -26,14 +26,8 @@ Nova is a Python-based virtual assistant project that provides various functiona
    - Say "current time" to get the current time.
    - Say "current date" to get today's date.
 
-## Installation
-
-1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Create a `.env` file and add your API keys.
-
 ## Environment Variables
 
-Make sure to include the following in your `.env` file:
+Make sure to include the following API in your `.env` file:
 
 
