@@ -229,9 +229,9 @@ def handel_command(c):
                     city = " ".join(command_4.split(" ")[2:] )
                     get_weather(city)                    
                     break  
-                                                         # hum >= 3 list ke hisab se likha h
+                                                         
             elif command_4 : # " ".join(command_4.split(" ")[2:] )  yeh string hogi not list 
-                    city =command_4.strip()                 # hum ==1 list ke hisab se likha h
+                    city =command_4.strip()                 
                     get_weather(city)                    
                     break
 
@@ -255,13 +255,13 @@ if __name__ == "__main__":
     while True:
        command = listen_command()   
        print(f"............Nova not Activated........ {command}")
-       if "nova" in command or command== 'nova': # last me choose ke lia
+       if "nova" in command or command== 'nova': 
 
             print(f"............Nova Activated........ {command}")  
         
             speak("............Nova Activated........  ")    
 
-            while True :#ise hatane se "Activation Phrase + Single Command" approach banjaega
+            while True :
                 command_2 = listen_command()
                 print(f"............waiting for command........ {command_2}") 
                 if 'stop' in command_2 or command_2 == "stop" :
